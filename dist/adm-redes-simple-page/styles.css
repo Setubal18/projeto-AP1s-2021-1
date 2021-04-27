@@ -1,0 +1,585 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,700&display=swap);
+
+/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: 'Ubuntu', sans-serif;
+}
+html,
+body {
+  min-height: 100vh;
+  color: #1e2023;
+}
+ol,
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+@media screen and (min-width: 1px) {
+  .col-xl-1 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 8.333333333333334%;
+    max-width: 8.333333333333334%;
+    display: block;
+  }
+  .col-xl-2 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 16.666666666666668%;
+    max-width: 16.666666666666668%;
+    display: block;
+  }
+  .col-xl-3 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 25%;
+    max-width: 25%;
+    display: block;
+  }
+  .col-xl-4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 33.333333333333336%;
+    max-width: 33.333333333333336%;
+    display: block;
+  }
+  .col-xl-5 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 41.66666666666667%;
+    max-width: 41.66666666666667%;
+    display: block;
+  }
+  .col-xl-6 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: block;
+  }
+  .col-xl-7 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 58.333333333333336%;
+    max-width: 58.333333333333336%;
+    display: block;
+  }
+  .col-xl-8 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 66.66666666666667%;
+    max-width: 66.66666666666667%;
+    display: block;
+  }
+  .col-xl-9 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 75%;
+    max-width: 75%;
+    display: block;
+  }
+  .col-xl-10 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 83.33333333333334%;
+    max-width: 83.33333333333334%;
+    display: block;
+  }
+  .col-xl-11 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 91.66666666666667%;
+    max-width: 91.66666666666667%;
+    display: block;
+  }
+  .col-xl-12 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: block;
+  }
+}
+@media screen and (max-width: 960px) {
+  .col-lg-1 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 8.333333333333334%;
+    max-width: 8.333333333333334%;
+    display: block;
+  }
+  .col-lg-2 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 16.666666666666668%;
+    max-width: 16.666666666666668%;
+    display: block;
+  }
+  .col-lg-3 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 25%;
+    max-width: 25%;
+    display: block;
+  }
+  .col-lg-4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 33.333333333333336%;
+    max-width: 33.333333333333336%;
+    display: block;
+  }
+  .col-lg-5 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 41.66666666666667%;
+    max-width: 41.66666666666667%;
+    display: block;
+  }
+  .col-lg-6 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: block;
+  }
+  .col-lg-7 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 58.333333333333336%;
+    max-width: 58.333333333333336%;
+    display: block;
+  }
+  .col-lg-8 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 66.66666666666667%;
+    max-width: 66.66666666666667%;
+    display: block;
+  }
+  .col-lg-9 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 75%;
+    max-width: 75%;
+    display: block;
+  }
+  .col-lg-10 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 83.33333333333334%;
+    max-width: 83.33333333333334%;
+    display: block;
+  }
+  .col-lg-11 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 91.66666666666667%;
+    max-width: 91.66666666666667%;
+    display: block;
+  }
+  .col-lg-12 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: block;
+  }
+}
+@media screen and (max-width: 720px) {
+  .col-md-1 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 8.333333333333334%;
+    max-width: 8.333333333333334%;
+    display: block;
+  }
+  .col-md-2 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 16.666666666666668%;
+    max-width: 16.666666666666668%;
+    display: block;
+  }
+  .col-md-3 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 25%;
+    max-width: 25%;
+    display: block;
+  }
+  .col-md-4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 33.333333333333336%;
+    max-width: 33.333333333333336%;
+    display: block;
+  }
+  .col-md-5 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 41.66666666666667%;
+    max-width: 41.66666666666667%;
+    display: block;
+  }
+  .col-md-6 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: block;
+  }
+  .col-md-7 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 58.333333333333336%;
+    max-width: 58.333333333333336%;
+    display: block;
+  }
+  .col-md-8 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 66.66666666666667%;
+    max-width: 66.66666666666667%;
+    display: block;
+  }
+  .col-md-9 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 75%;
+    max-width: 75%;
+    display: block;
+  }
+  .col-md-10 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 83.33333333333334%;
+    max-width: 83.33333333333334%;
+    display: block;
+  }
+  .col-md-11 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 91.66666666666667%;
+    max-width: 91.66666666666667%;
+    display: block;
+  }
+  .col-md-12 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: block;
+  }
+}
+@media screen and (max-width: 480px) {
+  .col-sm-1 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 8.333333333333334%;
+    max-width: 8.333333333333334%;
+    display: block;
+  }
+  .col-sm-2 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 16.666666666666668%;
+    max-width: 16.666666666666668%;
+    display: block;
+  }
+  .col-sm-3 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 25%;
+    max-width: 25%;
+    display: block;
+  }
+  .col-sm-4 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 33.333333333333336%;
+    max-width: 33.333333333333336%;
+    display: block;
+  }
+  .col-sm-5 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 41.66666666666667%;
+    max-width: 41.66666666666667%;
+    display: block;
+  }
+  .col-sm-6 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: block;
+  }
+  .col-sm-7 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 58.333333333333336%;
+    max-width: 58.333333333333336%;
+    display: block;
+  }
+  .col-sm-8 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 66.66666666666667%;
+    max-width: 66.66666666666667%;
+    display: block;
+  }
+  .col-sm-9 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 75%;
+    max-width: 75%;
+    display: block;
+  }
+  .col-sm-10 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 83.33333333333334%;
+    max-width: 83.33333333333334%;
+    display: block;
+  }
+  .col-sm-11 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 91.66666666666667%;
+    max-width: 91.66666666666667%;
+    display: block;
+  }
+  .col-sm-12 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 5px;
+    text-align: left;
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: block;
+  }
+}
+.btn {
+  background: #7633f3;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 5px;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.btn:disabled {
+  background-color: #383a3e;
+}
+.btn i {
+  margin: 0 5px;
+}
+.text-danger {
+  color: #eb445a;
+}
+.text-danger-shade {
+  color: #cf3c4f;
+}
+.text-warning {
+  color: #ffc409;
+}
+.text-warning-shade {
+  color: #e0ac08;
+}
+.text-primary {
+  color: #671cf2;
+}
+.text-primary-shade {
+  color: #5b19d5;
+}
+.text-secondary {
+  color: #671cf2;
+}
+.text-secondary-shade {
+  color: #5b19d5;
+}
+.text-tertiary {
+  color: #5260ff;
+}
+.text-tertiary-shade {
+  color: #5b19d5;
+}
+.text-dark {
+  color: #222428;
+}
+.text-dark-shade {
+  color: #1e2023;
+}
+.text-medium {
+  color: #92949c;
+}
+.text-medium-shade {
+  color: #808289;
+}
+.text-light {
+  color: #f4f5f8;
+}
+.text-light-shade {
+  color: #d7d8da;
+}
+
+
+/*# sourceMappingURL=styles.css.map*/
