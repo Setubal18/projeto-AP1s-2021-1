@@ -11,7 +11,7 @@ export class AutenticacaoComponent implements OnInit {
 
   public loginForm = new FormGroup({});
   public resp: any;
-  constructor(private fb: FormBuilder,private router:Router) { }
+  constructor(private fb: FormBuilder, private router: Router) { }
 
   ngOnInit(): void {
     this.initForm();
@@ -24,7 +24,7 @@ export class AutenticacaoComponent implements OnInit {
     });
   }
 
-  public isPass(){
+  isPass(){
     if (this.loginForm.value.pass === '123456'){
       this.resp = {
         message: 'Voce logou !',
@@ -41,8 +41,8 @@ export class AutenticacaoComponent implements OnInit {
 
   entrar(){
     this.isPass();
-    if(this.resp.status === 200){
-      this.router.navigate(['./dashboard'])
+    if (this.resp.status === 200){
+      this.router.navigate(['./dashboard']);
     }
   }
 
